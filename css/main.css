@@ -454,9 +454,6 @@ input.input100 {
   .container-login100 {
     background-image: url(../img/bg-small.png);
   }
-  .aks {
-    display: none;
-  }
   .login100-more {
     width: 50%;
   }
@@ -474,9 +471,6 @@ input.input100 {
   .logo img {
     margin-top: 30px;
     width: 50%;
-  }
-  .aks {
-    display: none;
   }
   .login100-more {
     display: none;
@@ -496,9 +490,6 @@ input.input100 {
   .logo img {
     margin-top: 30px;
     width: 50%;
-  }
-  .aks {
-    display: none;
   }
   .login100-more {
     display: none;
