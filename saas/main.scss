@@ -467,6 +467,32 @@ input.input100 {
 /*------------------------------------------------------------------
 [ Responsive ]*/
 
+@media (max-width: 1050px) {
+	.login100-form {
+		width: 50%;
+		border: none;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.logo img {
+		margin-top: 30px;
+		width: 50%;
+	}
+	.wrap-login100 {
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.container-login100 {
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.login100-more {
+		width: 50%;
+	}
+}
 @media (max-width: 992px) {
 	.login100-form {
 		width: 50%;
@@ -478,13 +504,17 @@ input.input100 {
 		margin-top: 30px;
 		width: 50%;
 	}
+	.wrap-login100 {
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
 	.container-login100 {
 		background-image: url(../img/bg-small.png);
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
 	}
-
-	// .aks {
-	// 	display: none;
-	// }
 
 	.login100-more {
 		width: 50%;
@@ -497,18 +527,15 @@ input.input100 {
 		border: none;
 		padding: 0px 20px 30px 20px;
 	}
-	.container-login100 {
-		background-image: url(../img/bg-small.png);
+	.wrap-login100 {
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
 	}
 	.logo img {
 		margin-top: 30px;
 		width: 50%;
 	}
-
-	// .aks {
-	// 	display: none;
-	// }
-
 	.login100-more {
 		display: none;
 	}
@@ -528,10 +555,6 @@ input.input100 {
 		margin-top: 30px;
 		width: 50%;
 	}
-
-	// .aks {
-	// 	display: none;
-	// }
 	.login100-more {
 		display: none;
 	}
