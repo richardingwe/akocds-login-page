@@ -451,6 +451,9 @@ input.input100 {
     margin-top: 30px;
     width: 50%;
   }
+  .container-login100 {
+    background-image: url(../img/bg-small.png);
+  }
   .aks {
     display: none;
   }
@@ -487,11 +490,17 @@ input.input100 {
     padding-right: 15px;
     padding-top: 70px;
   }
+  .container-login100 {
+    background-image: url(../img/bg-small.png);
+  }
   .logo img {
     margin-top: 30px;
     width: 50%;
   }
   .aks {
+    display: none;
+  }
+  .login100-more {
     display: none;
   }
 }
